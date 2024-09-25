@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	background-color: black;
+	color: #fff;
+}
+.d-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.d-flex-c {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.loader {
+	width: 100%;
+	height: 100vh;
+	justify-content: start;
+	font-family: "Orbitron", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+}
+.textloader {
+	font-size: 38px;
+	opacity: 0;
+}
+
+.loader .textloader:nth-child(-n + 5) {
+	margin-right: 22px; /* Applies gap-like spacing to the first 5 elements */
+}
+.loader .textloader:nth-child(6) {
+	margin-left: 75px; /* Applies gap-like spacing to the first 5 elements */
+}
+.loader .textloader:nth-child(7) {
+	margin-left: 160px; /* Applies gap-like spacing to the first 5 elements */
+}
+.loader .textloader:nth-child(8) {
+	margin-left: 180px; /* Applies gap-like spacing to the first 5 elements */
+}
+.loader .textloader:nth-child(9) {
+	margin-left: 190px; /* Applies gap-like spacing to the first 5 elements */
+}
+.loader .textloader:nth-child(10) {
+	margin-left: 110px; /* Applies gap-like spacing to the first 5 elements */
+}
+.loader .textloader:nth-child(11) {
+	margin-left: 83px; /* Applies gap-like spacing to the first 5 elements */
+}
+.loader .textloader:nth-child(12) {
+	margin-left: 66px; /* Applies gap-like spacing to the first 5 elements */
+}
