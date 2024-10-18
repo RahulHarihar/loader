@@ -36,27 +36,27 @@ body {
 	opacity: 0;
 }
 
-.loader .textloader:nth-child(-n + 5) {
+.loader .textloader:nth-child(-n + 9) {
 	margin-right: 22px; /* Applies gap-like spacing to the first 5 elements */
 }
-.loader .textloader:nth-child(6) {
+.loader .textloader:nth-child(11) {
 	margin-left: 75px; /* Applies gap-like spacing to the first 5 elements */
 }
-.loader .textloader:nth-child(7) {
+.loader .textloader:nth-child(12) {
 	margin-left: 160px; /* Applies gap-like spacing to the first 5 elements */
 }
-.loader .textloader:nth-child(8) {
+.loader .textloader:nth-child(13) {
 	margin-left: 180px; /* Applies gap-like spacing to the first 5 elements */
 }
-.loader .textloader:nth-child(9) {
+.loader .textloader:nth-child(14) {
 	margin-left: 190px; /* Applies gap-like spacing to the first 5 elements */
 }
-.loader .textloader:nth-child(10) {
+.loader .textloader:nth-child(15) {
 	margin-left: 110px; /* Applies gap-like spacing to the first 5 elements */
 }
-.loader .textloader:nth-child(11) {
+.loader .textloader:nth-child(15) {
 	margin-left: 83px; /* Applies gap-like spacing to the first 5 elements */
 }
-.loader .textloader:nth-child(12) {
-	margin-left: 66px; /* Applies gap-like spacing to the first 5 elements */
+.loader .textloader:nth-child(15) {
+	margin-left: 60px; /* Applies gap-like spacing to the first 5 elements */
 }
